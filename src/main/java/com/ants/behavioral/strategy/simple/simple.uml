@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>coms.ants.behavior.strategy.simple.ChildStrategy</OriginalElement>
+  <nodes>
+    <node x="10.5" y="170.0">coms.ants.behavior.strategy.simple.ChildStrategy</node>
+    <node x="168.5" y="170.0">coms.ants.behavior.strategy.simple.StudentStrategy</node>
+    <node x="330.5" y="170.0">coms.ants.behavior.strategy.simple.VipStrategy</node>
+    <node x="108.76950549450548" y="0.0">coms.ants.behavior.strategy.simple.IStrategy</node>
+    <node x="112.76950549450548" y="90.0">coms.ants.behavior.strategy.simple.Context</node>
+    <node x="108.0618131868132" y="250.0">coms.ants.behavior.strategy.simple.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="coms.ants.behavior.strategy.simple.VipStrategy" target="coms.ants.behavior.strategy.simple.IStrategy">
+      <point x="29.0" y="-15.0" />
+      <point x="417.5" y="50.0" />
+      <point x="201.62664835164838" y="50.0" />
+      <point x="42.85714285714289" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.Context" target="coms.ants.behavior.strategy.simple.IStrategy">
+      <point x="-30.666666666666686" y="-15.0" />
+      <point x="128.1028388278388" y="70.0" />
+      <point x="144.48379120879122" y="70.0" />
+      <point x="-14.285714285714278" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.Main" target="coms.ants.behavior.strategy.simple.IStrategy">
+      <point x="-28.875" y="-15.0" />
+      <point x="117.6868131868132" y="225.0" />
+      <point x="0.0" y="225.0" />
+      <point x="0.0" y="50.0" />
+      <point x="115.91236263736262" y="50.0" />
+      <point x="-42.85714285714286" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.Main" target="coms.ants.behavior.strategy.simple.Context">
+      <point x="-9.625" y="-15.0" />
+      <point x="136.9368131868132" y="225.0" />
+      <point x="147.0" y="225.0" />
+      <point x="147.0" y="150.0" />
+      <point x="140.36950549450546" y="150.0" />
+      <point x="-18.400000000000006" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.StudentStrategy" target="coms.ants.behavior.strategy.simple.Context">
+      <point x="-35.5" y="-15.0" />
+      <point x="204.0" y="150.0" />
+      <point x="177.16950549450547" y="150.0" />
+      <point x="18.399999999999977" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.ChildStrategy" target="coms.ants.behavior.strategy.simple.Context">
+      <point x="31.5" y="-15.0" />
+      <point x="105.0" y="150.0" />
+      <point x="121.96950549450547" y="150.0" />
+      <point x="-36.80000000000001" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.IStrategy" target="coms.ants.behavior.strategy.simple.Context">
+      <point x="14.285714285714278" y="15.0" />
+      <point x="173.05521978021977" y="70.0" />
+      <point x="189.43617216117218" y="70.0" />
+      <point x="30.666666666666686" y="-15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.Main" target="coms.ants.behavior.strategy.simple.StudentStrategy">
+      <point x="28.875" y="-15.0" />
+      <point x="175.4368131868132" y="225.0" />
+      <point x="239.5" y="225.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.StudentStrategy" target="coms.ants.behavior.strategy.simple.IStrategy">
+      <point x="35.5" y="-15.0" />
+      <point x="275.0" y="60.0" />
+      <point x="187.34093406593405" y="60.0" />
+      <point x="28.571428571428555" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.VipStrategy" target="coms.ants.behavior.strategy.simple.Context">
+      <point x="-29.0" y="-15.0" />
+      <point x="359.5" y="140.0" />
+      <point x="195.5695054945055" y="140.0" />
+      <point x="36.80000000000001" y="15.0" />
+    </edge>
+    <edge source="coms.ants.behavior.strategy.simple.ChildStrategy" target="coms.ants.behavior.strategy.simple.IStrategy">
+      <point x="-31.5" y="-15.0" />
+      <point x="42.0" y="60.0" />
+      <point x="130.19807692307694" y="60.0" />
+      <point x="-28.571428571428555" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="212.0" y="92.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
